@@ -1,0 +1,153 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 2.813em/1.38 Rokkitt;
+  color: rgba(184, 242, 133, 0.66);
+}
+
+.container-2 p {
+  margin-bottom: 1em;
+}
+
+.container {
+  float: left;
+  width: 100%;
+  height: 550px;
+}
+
+.element {
+  position: relative;
+  float: left;
+}
+
+.text {
+  position: relative;
+  float: left;
+  text-align: center;
+}
+
+._button {
+  display: block;
+  position: relative;
+  float: left;
+  width: 12%;
+  height: 43px;
+  margin-top: -520px;
+  border: 3px solid rgba(51, 51, 51, 0.34);
+  border-radius: 8px;
+  background-color: rgba(204, 204, 204, 0.41);
+  font-size: 0.356em;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.container-2 {
+  clear: both;
+}
+
+.element-1 {
+  z-index: 0;
+  width: 100%;
+  height: 550px;
+  background: url('../images/green%20background.jpg') rgb(222, 222, 222);
+  background-size: cover;
+  background-position: left top;
+}
+
+.element-2 {
+  z-index: 7;
+  width: 25.5833333333%;
+  height: 289px;
+  margin: -452px 0 0 37.16667%;
+  background: url('../images/Large%20Transparent%20A.png') rgba(222, 222, 222, 0);
+  background-size: 99% 99%;
+  background-position: center center;
+}
+
+.element-3 {
+  z-index: 9;
+  width: 100%;
+  height: 550px;
+  background: url('../images/wood%20background.jpg') rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
+}
+
+.text-1 {
+  z-index: 1;
+  width: 25.5833333333%;
+  min-height: 50px;
+  margin: -149px 0 0 37.1992199999%;
+  font-size: 0.8em;
+  color: rgb(0, 0, 0);
+}
+
+.text-2 {
+  z-index: 2;
+  width: 25.5%;
+  min-height: 50px;
+  margin: -87px 0 0 37.1992199999%;
+  font-size: 0.489em;
+  color: rgb(0, 0, 0);
+}
+
+.text-3 {
+  clear: both;
+  z-index: 10;
+  width: 80%;
+  min-height: 324px;
+  margin: -450px 0 0 10%;
+  border: 10px solid rgba(184, 242, 133, 0.66);
+  font-size: 1em;
+  color: rgba(184, 242, 133, 0.66);
+}
+
+.container ._button-1 {
+  clear: both;
+  z-index: 3;
+  margin-left: 22%;
+}
+
+.container ._button-2 {
+  z-index: 4;
+  margin-left: 36.39974%;
+}
+
+.container ._button-3 {
+  z-index: 5;
+  margin-left: 51.59896%;
+}
+
+.container ._button-4 {
+  z-index: 6;
+  margin-left: 66%;
+}
+
+.text a,
+.text em,
+.text span,
+.text strong {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
