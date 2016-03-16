@@ -82,19 +82,19 @@ body {
 ._button-1 {
   z-index: 3;
   width: 8.5%;
-  margin-left: 31.9987%;
+  margin-left: 31.9986979166%;
 }
 
 ._button-2 {
   z-index: 4;
   width: 8.4993489583%;
-  margin-left: 5.30355%;
+  margin-left: 5.303548177%;
 }
 
 ._button-3 {
   z-index: 5;
   width: 8.4985351562%;
-  margin-left: 5.19857%;
+  margin-left: 5.1985677083%;
   box-shadow: 0 0 5px 3px rgba(255, 255, 255, 0.5) inset;
 }
 
@@ -130,12 +130,10 @@ body {
 
   ._button-2 {
     z-index: 4;
-    margin-left: 5.30339%;
   }
 
   ._button-3 {
     z-index: 5;
-    margin-left: 5.19792%;
   }
 
   ._button-3:hover {
