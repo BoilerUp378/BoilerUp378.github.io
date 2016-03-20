@@ -45,15 +45,8 @@ body {
   display: block;
   position: relative;
   float: left;
-  height: 59px;
-  margin-top: 51px;
-  border: 1px solid rgb(255, 234, 234);
-  background-color: rgb(0, 0, 0);
-  font-size: 0.5em;
-  font-weight: 200;
   line-height: 1.38;
   text-align: center;
-  color: rgb(255, 255, 255);
 }
 
 .element-1 {
@@ -78,13 +71,25 @@ body {
 ._button-1 {
   z-index: 3;
   width: 8.5%;
-  margin-left: 31.9987%;
+  height: 59px;
+  margin: 51px 0 0 31.9987%;
+  border: 1px solid rgb(255, 234, 234);
+  background-color: rgb(0, 0, 0);
+  font-size: 0.5em;
+  font-weight: 200;
+  color: rgb(255, 255, 255);
 }
 
 ._button-2 {
   z-index: 4;
   width: 8.4993489583%;
-  margin-left: 5.30355%;
+  height: 59px;
+  margin: 51px 0 0 5.30355%;
+  border: 1px solid rgb(255, 234, 234);
+  background-color: rgb(0, 0, 0);
+  font-size: 0.5em;
+  font-weight: 200;
+  color: rgb(255, 255, 255);
 }
 
 ._button-1:hover,
@@ -95,12 +100,79 @@ body {
 ._button-3 {
   z-index: 5;
   width: 8.4985351562%;
-  margin-left: 5.1985677083%;
+  height: 59px;
+  margin: 51px 0 0 5.19857%;
+  border: 1px solid rgb(255, 234, 234);
+  background-color: rgb(0, 0, 0);
   box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.5) inset;
+  font-size: 0.5em;
+  font-weight: 200;
+  color: rgb(255, 255, 255);
 }
 
 ._button-3:hover {
   box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.5) inset;
+}
+
+._button-4 {
+  clear: both;
+  z-index: 6;
+  width: 150px;
+  height: 150px;
+  margin: 95px 0 0 31.260579427%;
+  border-radius: 3px;
+  background: url('../images/outlook%20button.jpg') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  font-size: 0.333em;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+
+._button-5 {
+  z-index: 7;
+  width: 150px;
+  height: 150px;
+  margin: 95px 0 0 2.0890299479%;
+  border-radius: 3px;
+  background: url('../images/Linked%20in.png') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  font-size: 0.333em;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+
+._button-6 {
+  z-index: 8;
+  width: 150px;
+  height: 150px;
+  margin: 95px 0 0 2.099609375%;
+  border-radius: 3px;
+  background: url('../images/twitter%20button.png') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  font-size: 0.333em;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+
+._button-7 {
+  z-index: 9;
+  width: 150px;
+  height: 150px;
+  margin: 95px 0 0 2.0963541666%;
+  border-radius: 3px;
+  background: url('../images/imgur%20button.png') rgba(98, 54, 54, 0);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  font-size: 0.333em;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
 }
 
 @media(max-width: 1200px) {
@@ -140,9 +212,26 @@ body {
 
   ._button-3 {
     z-index: 5;
+    margin-left: 5.19792%;
   }
 
   ._button-3:hover {
     box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.5) inset;
+  }
+
+  ._button-4 {
+    z-index: 6;
+  }
+
+  ._button-5 {
+    z-index: 7;
+  }
+
+  ._button-6 {
+    z-index: 8;
+  }
+
+  ._button-7 {
+    z-index: 9;
   }
 }
