@@ -34,11 +34,20 @@ body {
   width: 32%;
   min-height: 46px;
   margin: -191px 0 0 33.99821%;
-  background-color: rgba(255, 255, 255, 0.14);
+  background-color: rgba(255, 255, 255, 0.32);
   box-shadow: -1px 5px 5px 2px rgba(0, 0, 0, 0.5);
   font-size: 1em;
   text-align: center;
   color: rgb(0, 0, 0);
+}
+
+.wrapper {
+  float: left;
+  clear: both;
+  width: 35.9895833333%;
+  height: 754px;
+  margin: 72px 0 0 31.9791666666%;
+  overflow: hidden;
 }
 
 ._button {
@@ -82,20 +91,20 @@ body {
 ._button-1 {
   z-index: 3;
   width: 8.5%;
-  margin-left: 31.9986979166%;
+  margin-left: 31.9987%;
 }
 
 ._button-2 {
   z-index: 4;
   width: 8.4993489583%;
-  margin-left: 5.303548177%;
+  margin-left: 5.30355%;
   box-shadow: 0 0 5px 3px rgba(255, 255, 255, 0.5) inset;
 }
 
 ._button-3 {
   z-index: 5;
   width: 8.4985351562%;
-  margin-left: 5.1985677083%;
+  margin-left: 5.19857%;
 }
 
 @media(max-width: 1200px) {
@@ -130,10 +139,12 @@ body {
 
   ._button-2 {
     z-index: 4;
+    margin-left: 5.30339%;
   }
 
   ._button-3 {
     z-index: 5;
+    margin-left: 5.19792%;
   }
 
   ._button-3:hover {
