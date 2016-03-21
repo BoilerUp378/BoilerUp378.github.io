@@ -331,7 +331,10 @@ body {
     position: relative;
   }
 
-  .text,
+  .text {
+    position: relative;
+  }
+
   .wrapper {
     position: relative;
   }
@@ -352,36 +355,55 @@ body {
   }
 
   .text-2 {
+    clear: both;
     z-index: 7;
-    margin-left: 3.05496%;
+    width: 38.8965517241%;
+    height: 200px;
+    min-height: 200px;
+    margin-top: -797px;
+    margin-left: 30.47953%;
   }
 
   .text-3 {
+    clear: none;
     z-index: 9;
-    margin-left: 25.49246%;
+    width: 38.9%;
+    height: 200px;
+    min-height: 200px;
+    margin-top: 37px;
+    margin-left: 30.54849%;
   }
 
   .text-4 {
+    clear: both;
     z-index: 10;
-    margin-left: 4.0721999999%;
+    width: 38.9%;
+    height: 200px;
+    min-height: 200px;
+    margin-top: -830px;
+    margin-left: 30.47953%;
   }
 
   .wrapper-1 {
     z-index: 6;
     width: 36.7586206896%;
-    margin-left: 16.34483%;
+    margin-top: 218px;
+    margin-left: 30.55065%;
   }
 
   .wrapper-2 {
+    clear: both;
     z-index: 8;
     width: 38.1379310344%;
-    margin-left: 6.17457%;
+    margin-top: -37px;
+    margin-left: 30.47953%;
   }
 
   .wrapper-3 {
     z-index: 11;
-    width: 36.1379310344%;
-    margin-left: 16.96552%;
+    width: 38.0689655172%;
+    margin-top: 258px;
+    margin-left: 30.55065%;
   }
 
   ._button-1 {
