@@ -190,7 +190,7 @@ body {
   .text-1 {
     z-index: 2;
     width: 35%;
-    margin-left: 33.99816%;
+    margin-left: 33.40993%;
   }
 
   .text-2 {
@@ -202,7 +202,7 @@ body {
   ._button-1 {
     z-index: 3;
     width: 12%;
-    margin-left: 31.99449%;
+    margin-left: 26.69761%;
   }
 
   ._button-2 {
@@ -214,7 +214,7 @@ body {
   ._button-3 {
     z-index: 5;
     width: 12%;
-    margin-left: 5.19853%;
+    margin-left: 5.1921%;
   }
 
   ._button-3:hover {
@@ -237,11 +237,8 @@ body {
     position: relative;
   }
 
+  ._button,
   .text {
-    position: relative;
-  }
-
-  ._button {
     position: relative;
   }
 
@@ -255,59 +252,58 @@ body {
   }
 
   .element-3 {
-    clear: none;
     z-index: 6;
     width: 19.1724137931%;
     height: 346px;
-    margin-top: 123px;
-    margin-left: 1.61426%;
+    margin-top: 128px;
+    margin-left: 25.06055%;
   }
 
   .text-1 {
     z-index: 2;
     width: 42%;
-    margin-left: 32.24805%;
+    margin-left: 28.68555%;
   }
 
   .text-2 {
     z-index: 7;
     width: 25%;
-    margin-top: 188px;
-    margin-left: 2.16016%;
+    margin-top: 128px;
+    margin-left: 2.26758%;
   }
 
   ._button-1 {
     z-index: 3;
-    width: 20%;
-    margin-left: 31.99414%;
+    margin-top: 50px;
+    margin-left: 26.67969%;
   }
 
   ._button-2 {
     z-index: 4;
-    width: 20%;
+    margin-top: 50px;
     margin-left: 5.30176%;
   }
 
   ._button-3 {
-    clear: both;
     z-index: 5;
-    width: 20%;
-    margin-left: 5.1972699999%;
+    margin-top: 50px;
+    margin-left: 5.47168%;
   }
 
   ._button-4 {
     z-index: 8;
-    width: 30.5%;
-    margin-left: 49.98828%;
+    width: 29.5%;
+    margin-top: -69px;
+    margin-left: 45%;
   }
 }
 
 @media(max-width: 1450px) {
-  ._button,
   .element {
     position: relative;
   }
 
+  ._button,
   .text {
     position: relative;
   }
@@ -324,42 +320,47 @@ body {
   .element-3 {
     z-index: 6;
     width: 20.2962962962%;
-    margin-top: 179px;
-    margin-left: 1.4245699999%;
+    height: 424px;
+    margin-top: 63px;
+    margin-left: 25.5%;
   }
 
   .text-1 {
     z-index: 2;
     width: 45%;
-    margin-left: 28.78772%;
+    margin-left: 27.2694%;
   }
 
   .text-2 {
     z-index: 7;
     width: 28.6666666666%;
-    margin-left: 1.42134%;
+    margin-top: 86px;
+    margin-left: 2.09052%;
   }
 
   ._button-1 {
     z-index: 3;
-    margin-left: 31.99246%;
+    margin-top: 51px;
+    margin-left: 26.60668%;
   }
 
   ._button-2 {
     z-index: 4;
-    margin-left: 5.30065%;
+    margin-top: 51px;
+    margin-left: 5.29957%;
   }
 
   ._button-3 {
     z-index: 5;
-    margin-left: 5.1971999999%;
+    margin-top: 51px;
+    margin-left: 5.30496%;
   }
 
   ._button-4 {
     z-index: 8;
-    width: 36%;
-    margin-top: -56px;
-    margin-left: 49.98815%;
+    width: 28.4827586206%;
+    margin-top: -102px;
+    margin-left: 47.03448%;
   }
 }
 
@@ -372,11 +373,8 @@ body {
     position: relative;
   }
 
+  ._button,
   .text {
-    position: relative;
-  }
-
-  ._button {
     position: relative;
   }
 
@@ -390,29 +388,29 @@ body {
   }
 
   .element-3 {
-    clear: both;
     z-index: 6;
-    width: 24%;
-    margin-top: 69px;
-    margin-left: 25.47917%;
+    width: 27.4074074074%;
+    height: 553px;
+    margin-top: 16px;
+    margin-left: 22.07292%;
   }
 
   .text-1 {
     z-index: 2;
     width: 50%;
-    margin-left: 27.07639%;
+    margin-left: 24.85301%;
   }
 
   .text-2 {
     z-index: 7;
-    width: 33.5652173913%;
-    margin-top: 78px;
-    margin-left: 1.40741%;
+    width: 31.9259259259%;
+    margin-top: 101px;
+    margin-left: 1.48264%;
   }
 
   ._button-1 {
     z-index: 3;
-    margin-left: 26.79861%;
+    margin-left: 26.5%;
   }
 
   ._button-2 {
@@ -421,25 +419,22 @@ body {
   }
 
   ._button-3 {
-    clear: none;
     z-index: 5;
-    margin-left: 5.19792%;
+    margin-left: 5.7025499999%;
   }
 
   ._button-4 {
     z-index: 8;
-    margin-top: -72px;
-    margin-left: 50.06134%;
+    width: 32%;
+    margin-top: -153px;
+    margin-left: 51.03704%;
   }
 }
 
 @media(max-width: 1150px) {
+  ._button,
   .element,
   .text {
-    position: relative;
-  }
-
-  ._button {
     position: relative;
   }
 
@@ -455,19 +450,21 @@ body {
   .element-3 {
     z-index: 6;
     width: 28.1999999999%;
-    margin-left: 21.73913%;
+    margin-top: 10px;
+    margin-left: 20.7962%;
   }
 
   .text-1 {
     z-index: 2;
     width: 60%;
-    margin-left: 24.80707%;
+    margin-left: 19.76087%;
   }
 
   .text-2 {
     z-index: 7;
-    width: 42.6999999999%;
-    margin-left: 1.47283%;
+    width: 32.4347826086%;
+    margin-top: 86px;
+    margin-left: 1.9606%;
   }
 
   ._button-1 {
@@ -482,13 +479,14 @@ body {
 
   ._button-3 {
     z-index: 5;
-    margin-left: 5.19158%;
+    margin-left: 5.28397%;
   }
 
   ._button-4 {
     z-index: 8;
-    margin-top: -79px;
-    margin-left: 51.04348%;
+    width: 33.0434782608%;
+    margin-top: -150px;
+    margin-left: 50.95652%;
   }
 }
 
@@ -497,15 +495,9 @@ body {
     font-size: 1.25em;
   }
 
-  .element {
-    position: relative;
-  }
-
+  ._button,
+  .element,
   .text {
-    position: relative;
-  }
-
-  ._button {
     position: relative;
   }
 
@@ -521,25 +513,26 @@ body {
   .element-3 {
     z-index: 6;
     width: 36%;
-    margin-left: 17.5%;
+    margin-top: 0;
+    margin-left: 10.2%;
   }
 
   .text-1 {
     z-index: 2;
     width: 75%;
-    margin-left: 19.70625%;
+    margin-left: 12.40625%;
   }
 
   .text-2 {
-    clear: both;
     z-index: 7;
-    width: 53.3749999999%;
-    margin-left: 1.5%;
+    width: 42.5%;
+    margin-top: 80px;
+    margin-left: 2.8%;
   }
 
   ._button-1 {
     z-index: 3;
-    margin-left: 14.79375%;
+    margin-left: 26.89375%;
   }
 
   ._button-2 {
@@ -549,26 +542,21 @@ body {
 
   ._button-3 {
     z-index: 5;
-    margin-left: 5.19063%;
+    margin-left: 5.3125%;
   }
 
   ._button-4 {
     z-index: 8;
-    margin-top: -69px;
-    margin-left: 51%;
+    width: 42.5%;
+    margin-top: -155px;
+    margin-left: 49%;
   }
 }
 
 @media(max-width: 900px) {
-  .element {
-    position: relative;
-  }
-
+  ._button,
+  .element,
   .text {
-    position: relative;
-  }
-
-  ._button {
     position: relative;
   }
 
@@ -583,23 +571,26 @@ body {
 
   .element-3 {
     z-index: 6;
-    width: 46.1666666666%;
+    width: 40.3333333333%;
+    margin-top: 27px;
+    margin-left: 7.5%;
   }
 
   .text-1 {
-    clear: both;
     z-index: 2;
-    width: 90%;
-    margin-left: 19.70486%;
+    margin-left: 12.47049%;
   }
 
   .text-2 {
     z-index: 7;
+    width: 42.5555555555%;
+    margin-top: 83px;
+    margin-left: 1.16667%;
   }
 
   ._button-1 {
     z-index: 3;
-    margin-left: 14.79167%;
+    margin-left: 27.01042%;
   }
 
   ._button-2 {
@@ -609,12 +600,13 @@ body {
 
   ._button-3 {
     z-index: 5;
-    margin-left: 5.18924%;
+    margin-left: 5.31771%;
   }
 
   ._button-4 {
     z-index: 8;
-    margin-top: -83px;
+    width: 47.875%;
+    margin-top: -147px;
   }
 }
 
@@ -627,8 +619,11 @@ body {
     position: relative;
   }
 
-  ._button,
   .text {
+    position: relative;
+  }
+
+  ._button {
     position: relative;
   }
 
@@ -644,9 +639,9 @@ body {
 
   .element-3 {
     z-index: 6;
-    width: 64.5%;
-    margin-top: 48px;
-    margin-left: 6.5%;
+    width: 68%;
+    margin-top: 156px;
+    margin-left: 16%;
   }
 
   .text-1 {
@@ -655,14 +650,17 @@ body {
   }
 
   .text-2 {
+    clear: both;
     z-index: 7;
-    margin-top: 48px;
-    margin-left: 1.375%;
+    width: 55.75%;
+    margin-top: 43px;
+    margin-left: 21.75%;
+    text-align: center;
   }
 
   ._button-1 {
     z-index: 3;
-    margin-left: 14.79102%;
+    margin-left: 26.79102%;
   }
 
   ._button-2 {
@@ -672,130 +670,17 @@ body {
 
   ._button-3 {
     z-index: 5;
-    margin-left: 5.1875%;
+    margin-left: 5.29883%;
   }
 
   ._button-4 {
     z-index: 8;
-    margin-top: -69px;
+    margin-top: 72px;
+    margin-left: 25.5%;
   }
 }
 
 @media(max-width: 700px) {
-  .element,
-  .text {
-    position: relative;
-  }
-
-  ._button {
-    position: relative;
-  }
-
-  .element-1 {
-    z-index: 0;
-  }
-
-  .element-2 {
-    z-index: 1;
-  }
-
-  .element-3 {
-    z-index: 6;
-  }
-
-  .text-1 {
-    z-index: 2;
-  }
-
-  .text-2 {
-    z-index: 7;
-  }
-
-  ._button-1 {
-    z-index: 3;
-    margin-left: 14.79018%;
-  }
-
-  ._button-2 {
-    z-index: 4;
-  }
-
-  ._button-3 {
-    z-index: 5;
-  }
-
-  ._button-4 {
-    z-index: 8;
-  }
-}
-
-@media(max-width: 600px) {
-  body {
-    font-size: 1.25em;
-  }
-
-  .element {
-    position: relative;
-  }
-
-  .text {
-    position: relative;
-  }
-
-  ._button {
-    position: relative;
-  }
-
-  .element-1 {
-    z-index: 0;
-  }
-
-  .element-2 {
-    z-index: 1;
-  }
-
-  .element-3 {
-    z-index: 6;
-    margin-top: 23px;
-    margin-left: 26.83073%;
-  }
-
-  .text-1 {
-    clear: none;
-    z-index: 2;
-    margin-left: 4.14844%;
-  }
-
-  .text-2 {
-    z-index: 7;
-    width: 70.3333333333%;
-    margin-top: 10px;
-    margin-left: 14.78646%;
-    text-align: center;
-  }
-
-  ._button-1 {
-    z-index: 3;
-    margin-left: 14.78646%;
-  }
-
-  ._button-2 {
-    z-index: 4;
-  }
-
-  ._button-3 {
-    z-index: 5;
-  }
-
-  ._button-4 {
-    z-index: 8;
-    width: 70.1666666666%;
-    margin-top: 56px;
-    margin-left: 14.83073%;
-  }
-}
-
-@media(max-width: 500px) {
   .element {
     position: relative;
   }
@@ -815,48 +700,116 @@ body {
 
   .element-3 {
     z-index: 6;
-    margin-left: 26.82813%;
+    margin-top: 154px;
   }
 
   .text-1 {
     z-index: 2;
-    margin-top: -250px;
-    margin-left: 4.14688%;
   }
 
   .text-2 {
     z-index: 7;
-    margin-left: 14.78438%;
+    width: 70.3333333333%;
+    margin-top: 28px;
+    margin-left: 16%;
   }
 
   ._button-1 {
     z-index: 3;
-    margin-top: 61px;
-    margin-left: 14.78438%;
+    margin-left: 26.91741%;
   }
 
   ._button-2 {
     z-index: 4;
-    margin-top: 61px;
+    margin-left: 5.27009%;
   }
 
   ._button-3 {
     z-index: 5;
-    margin-top: 61px;
+    margin-left: 5.28348%;
   }
 
   ._button-4 {
     z-index: 8;
-    margin-left: 14.82813%;
+    width: 67.8571428571%;
+    margin-top: 48px;
+    margin-left: 17.14286%;
   }
 }
 
-@media(max-width: 400px) {
+@media(max-width: 600px) {
   body {
     font-size: 1.25em;
   }
 
-  .element,
+  .element {
+    position: relative;
+  }
+
+  ._button,
+  .text {
+    position: relative;
+  }
+
+  .element-1 {
+    z-index: 0;
+  }
+
+  .element-2 {
+    z-index: 1;
+  }
+
+  .element-3 {
+    z-index: 6;
+    margin-top: 21px;
+  }
+
+  .text-1 {
+    z-index: 2;
+    width: 90%;
+    margin-left: 4.46615%;
+  }
+
+  .text-2 {
+    z-index: 7;
+    margin-top: 12px;
+    margin-left: 14.78646%;
+  }
+
+  ._button-1 {
+    z-index: 3;
+    width: 20%;
+    margin-top: 61px;
+    margin-left: 14.78646%;
+  }
+
+  ._button-2 {
+    z-index: 4;
+    width: 20%;
+    margin-top: 61px;
+    margin-left: 5.28125%;
+  }
+
+  ._button-3 {
+    z-index: 5;
+    width: 20%;
+    margin-top: 61px;
+    margin-left: 5.1875%;
+  }
+
+  ._button-4 {
+    z-index: 8;
+    width: 70.1666666666%;
+    margin-top: 56px;
+    margin-left: 14.83073%;
+  }
+}
+
+@media(max-width: 500px) {
+  .element {
+    position: relative;
+  }
+
   .text {
     position: relative;
   }
@@ -875,8 +828,68 @@ body {
 
   .element-3 {
     z-index: 6;
-    margin-top: 25px;
-    margin-left: 17.75%;
+    margin-top: 19px;
+  }
+
+  .text-1 {
+    z-index: 2;
+    margin-top: -250px;
+    margin-left: 4.14688%;
+  }
+
+  .text-2 {
+    z-index: 7;
+    margin-top: 14px;
+    margin-left: 14.78438%;
+  }
+
+  ._button-1 {
+    z-index: 3;
+    margin-left: 14.78438%;
+  }
+
+  ._button-2 {
+    z-index: 4;
+  }
+
+  ._button-3 {
+    z-index: 5;
+  }
+
+  ._button-4 {
+    z-index: 8;
+    margin-left: 14.82813%;
+  }
+}
+
+@media(max-width: 400px) {
+  body {
+    font-size: 1.25em;
+  }
+
+  .element {
+    position: relative;
+  }
+
+  ._button,
+  .text {
+    position: relative;
+  }
+
+  .element-1 {
+    z-index: 0;
+  }
+
+  .element-2 {
+    z-index: 1;
+  }
+
+  .element-3 {
+    z-index: 6;
+    width: 83%;
+    height: 411px;
+    margin-top: 42px;
+    margin-left: 8.5%;
   }
 
   .text-1 {
@@ -886,8 +899,9 @@ body {
 
   .text-2 {
     z-index: 7;
-    margin-top: 8px;
-    margin-left: 14.78125%;
+    width: 83%;
+    margin-top: 32px;
+    margin-left: 8.5%;
   }
 
   ._button-1 {
@@ -908,6 +922,9 @@ body {
 
   ._button-4 {
     z-index: 8;
+    width: 83%;
+    margin-top: 35px;
+    margin-left: 8.5%;
   }
 }
 
@@ -920,8 +937,11 @@ body {
     position: relative;
   }
 
-  ._button,
   .text {
+    position: relative;
+  }
+
+  ._button {
     position: relative;
   }
 
@@ -949,20 +969,22 @@ body {
 
   .text-2 {
     z-index: 7;
-    margin-top: 28px;
-    margin-left: 14.82422%;
+    margin-top: 0;
+    margin-left: 8.48633%;
     font-size: 16px;
   }
 
   ._button-1 {
     z-index: 3;
+    width: 26%;
     margin-top: 79px;
-    margin-left: 7.27051%;
+    margin-left: 6.02051%;
     font-size: 1.5em;
   }
 
   ._button-2 {
     z-index: 4;
+    width: 26%;
     margin-top: 79px;
     margin-left: 5.27344%;
     font-size: 1.5em;
@@ -970,6 +992,7 @@ body {
 
   ._button-3 {
     z-index: 5;
+    width: 26%;
     margin-top: 79px;
     margin-left: 5.18555%;
     font-size: 1.5em;
@@ -977,8 +1000,8 @@ body {
 
   ._button-4 {
     z-index: 8;
-    margin-top: 38px;
-    margin-left: 14.82422%;
+    margin-top: 37px;
+    margin-left: 8.48633%;
     font-size: 1em;
   }
 }
