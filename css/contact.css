@@ -373,6 +373,7 @@ body {
   .text {
     position: relative;
     z-index: 2;
+    width: 50%;
     margin-left: 27.07292%;
   }
 
@@ -437,7 +438,6 @@ body {
   .text {
     position: relative;
     z-index: 2;
-    width: 50%;
     margin-left: 24.77174%;
   }
 
@@ -483,5 +483,66 @@ body {
   ._button-7 {
     z-index: 9;
     margin-left: 2.08832%;
+  }
+}
+
+@media(max-width: 1000px) {
+  body {
+    font-size: 3em;
+  }
+
+  ._button,
+  .element {
+    position: relative;
+  }
+
+  .text {
+    position: relative;
+    z-index: 2;
+    width: 60%;
+    margin-left: 19.56875%;
+  }
+
+  .element-1 {
+    z-index: 0;
+  }
+
+  .element-2 {
+    z-index: 1;
+    margin-left: 42.75313%;
+  }
+
+  ._button-1 {
+    z-index: 3;
+    margin-left: 26.79375%;
+  }
+
+  ._button-2 {
+    z-index: 4;
+  }
+
+  ._button-3 {
+    z-index: 5;
+    margin-left: 5.19063%;
+  }
+
+  ._button-4 {
+    z-index: 6;
+    margin-left: 17.05313%;
+  }
+
+  ._button-5 {
+    z-index: 7;
+    margin-left: 2.06563%;
+  }
+
+  ._button-6 {
+    z-index: 8;
+    margin-left: 2.0875%;
+  }
+
+  ._button-7 {
+    z-index: 9;
+    margin-left: 2.0875%;
   }
 }
