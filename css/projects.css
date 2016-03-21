@@ -161,7 +161,10 @@ body {
 }
 
 @media(max-width: 1700px) {
-  .element,
+  .element {
+    position: relative;
+  }
+
   .text {
     position: relative;
   }
@@ -186,6 +189,7 @@ body {
 
   .text-1 {
     z-index: 2;
+    width: 35%;
     margin-top: -224px;
     margin-left: 33.99816%;
   }
@@ -207,16 +211,19 @@ body {
 
   .wrapper-1 {
     z-index: 6;
+    width: 32.6875%;
     margin-left: 25.49449%;
   }
 
   .wrapper-2 {
     z-index: 8;
+    width: 33%;
     margin-left: 2.08456%;
   }
 
   .wrapper-3 {
     z-index: 11;
+    width: 32.6875%;
     margin-left: 25.5%;
   }
 
@@ -250,10 +257,7 @@ body {
     position: relative;
   }
 
-  .text {
-    position: relative;
-  }
-
+  .text,
   .wrapper {
     position: relative;
   }
@@ -269,13 +273,12 @@ body {
 
   .text-1 {
     z-index: 2;
-    width: 35%;
     margin-left: 32.31055%;
   }
 
   .text-2 {
     z-index: 7;
-    margin-left: 6.16016%;
+    margin-left: 3.03418%;
   }
 
   .text-3 {
@@ -286,12 +289,12 @@ body {
   .text-4 {
     z-index: 10;
     margin-top: 62px;
-    margin-left: 7.17969%;
+    margin-left: 4.05176%;
   }
 
   .wrapper-1 {
     z-index: 6;
-    margin-left: 20.41602%;
+    margin-left: 20.4375%;
   }
 
   .wrapper-2 {
@@ -303,7 +306,7 @@ body {
   .wrapper-3 {
     z-index: 11;
     margin-top: 62px;
-    margin-left: 20.41602%;
+    margin-left: 20.4375%;
   }
 
   ._button-1 {
@@ -319,5 +322,80 @@ body {
   ._button-3 {
     z-index: 5;
     margin-left: 5.19336%;
+  }
+}
+
+@media(max-width: 1450px) {
+  ._button,
+  .element {
+    position: relative;
+  }
+
+  .text,
+  .wrapper {
+    position: relative;
+  }
+
+  .element-1 {
+    z-index: 0;
+  }
+
+  .element-2 {
+    z-index: 1;
+    margin-left: 42.91595%;
+  }
+
+  .text-1 {
+    z-index: 2;
+    width: 40%;
+    margin-left: 29.75647%;
+  }
+
+  .text-2 {
+    z-index: 7;
+    margin-left: 3.05496%;
+  }
+
+  .text-3 {
+    z-index: 9;
+    margin-left: 25.49246%;
+  }
+
+  .text-4 {
+    z-index: 10;
+    margin-left: 4.0721999999%;
+  }
+
+  .wrapper-1 {
+    z-index: 6;
+    width: 36.7586206896%;
+    margin-left: 16.34483%;
+  }
+
+  .wrapper-2 {
+    z-index: 8;
+    width: 38.1379310344%;
+    margin-left: 6.17457%;
+  }
+
+  .wrapper-3 {
+    z-index: 11;
+    width: 36.1379310344%;
+    margin-left: 16.96552%;
+  }
+
+  ._button-1 {
+    z-index: 3;
+    margin-left: 31.99246%;
+  }
+
+  ._button-2 {
+    z-index: 4;
+    margin-left: 5.30065%;
+  }
+
+  ._button-3 {
+    z-index: 5;
+    margin-left: 5.19289%;
   }
 }
