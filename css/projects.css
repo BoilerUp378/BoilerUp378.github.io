@@ -175,6 +175,7 @@ body {
 
   ._button {
     position: relative;
+    width: 12%;
   }
 
   .element-1 {
@@ -196,34 +197,43 @@ body {
 
   .text-2 {
     z-index: 7;
+    width: 38.8965517241%;
+    height: 200px;
     margin-left: 1.0625%;
   }
 
   .text-3 {
     z-index: 9;
+    width: 38.9%;
+    height: 200px;
     margin-left: 25.49449%;
   }
 
   .text-4 {
     z-index: 10;
+    width: 38.9%;
+    height: 200px;
     margin-left: 2.07721%;
   }
 
   .wrapper-1 {
     z-index: 6;
     width: 32.6875%;
+    height: 550px;
     margin-left: 25.49449%;
   }
 
   .wrapper-2 {
     z-index: 8;
     width: 33%;
+    height: 500px;
     margin-left: 2.08456%;
   }
 
   .wrapper-3 {
     z-index: 11;
     width: 32.6875%;
+    height: 500px;
     margin-left: 25.5%;
   }
 
@@ -252,7 +262,6 @@ body {
     font-size: 1.5em;
   }
 
-  ._button,
   .element {
     position: relative;
   }
@@ -263,6 +272,11 @@ body {
 
   .wrapper {
     position: relative;
+  }
+
+  ._button {
+    position: relative;
+    width: 20%;
   }
 
   .element-1 {
@@ -281,34 +295,46 @@ body {
   }
 
   .text-2 {
+    clear: both;
     z-index: 7;
+    width: 49%;
+    height: 237px;
     margin-left: 3.03418%;
   }
 
   .text-3 {
     z-index: 9;
+    width: 49%;
+    height: 236px;
     margin-left: 25.49414%;
   }
 
   .text-4 {
+    clear: both;
     z-index: 10;
+    width: 49%;
+    height: 238px;
     margin-top: 62px;
     margin-left: 4.05176%;
   }
 
   .wrapper-1 {
     z-index: 6;
+    width: 60.9655172413%;
     margin-left: 20.4375%;
   }
 
   .wrapper-2 {
+    clear: both;
     z-index: 8;
+    width: 61.0344827586%;
     margin-top: 89px;
     margin-left: 6.17188%;
   }
 
   .wrapper-3 {
     z-index: 11;
+    width: 60.9655172413%;
     margin-top: 62px;
     margin-left: 20.4375%;
   }
@@ -324,6 +350,7 @@ body {
   }
 
   ._button-3 {
+    clear: both;
     z-index: 5;
     margin-left: 5.19336%;
   }
@@ -341,6 +368,7 @@ body {
 
   .wrapper {
     position: relative;
+    width: 78.5555555555%;
   }
 
   .element-1 {
@@ -359,10 +387,9 @@ body {
   }
 
   .text-2 {
-    clear: both;
     z-index: 7;
-    width: 38.8965517241%;
-    height: 200px;
+    width: 53%;
+    height: 264px;
     min-height: 200px;
     margin-top: 10px;
     margin-left: 25.50216%;
@@ -370,18 +397,15 @@ body {
 
   .text-3 {
     z-index: 9;
-    width: 38.9%;
-    height: 200px;
+    width: 53%;
     min-height: 200px;
     margin-top: 596px;
     margin-left: 25.49677%;
   }
 
   .text-4 {
-    clear: both;
     z-index: 10;
-    width: 38.9%;
-    height: 200px;
+    width: 53%;
     min-height: 200px;
     margin-top: 9px;
     margin-left: 25.5%;
@@ -389,26 +413,18 @@ body {
 
   .wrapper-1 {
     z-index: 6;
-    width: 60.9655172413%;
-    height: 550px;
     margin-top: 24px;
     margin-left: 25.5%;
   }
 
   .wrapper-2 {
-    clear: both;
     z-index: 8;
-    width: 61.0344827586%;
-    height: 500px;
     margin-top: -712px;
     margin-left: 25.5%;
   }
 
   .wrapper-3 {
-    clear: none;
     z-index: 11;
-    width: 60.9655172413%;
-    height: 500px;
     margin-top: 110px;
     margin-left: 25.50216%;
   }
@@ -445,7 +461,6 @@ body {
 
   ._button {
     position: relative;
-    width: 12%;
   }
 
   .element-1 {
@@ -465,16 +480,19 @@ body {
 
   .text-2 {
     z-index: 7;
+    width: 76.5%;
     margin-left: 25.50116%;
   }
 
   .text-3 {
     z-index: 9;
+    width: 76.5%;
     margin-left: 25.49653%;
   }
 
   .text-4 {
     z-index: 10;
+    width: 76.5%;
   }
 
   .wrapper-1 {
@@ -501,15 +519,19 @@ body {
   }
 
   ._button-3 {
+    clear: none;
     z-index: 5;
     margin-left: 5.1886599999%;
   }
 }
 
 @media(max-width: 1150px) {
+  .text {
+    position: relative;
+  }
+
   ._button,
   .element,
-  .text,
   .wrapper {
     position: relative;
   }
@@ -525,6 +547,7 @@ body {
 
   .text-1 {
     z-index: 2;
+    width: 60%;
     margin-left: 24.81522%;
   }
 
@@ -599,7 +622,7 @@ body {
 
   .text-1 {
     z-index: 2;
-    width: 60%;
+    width: 75%;
     margin-left: 19.6125%;
   }
 
@@ -609,7 +632,8 @@ body {
 
   .text-3 {
     z-index: 9;
-    margin-left: 25.49375%;
+    margin-top: 559px;
+    margin-left: 25.5%;
   }
 
   .text-4 {
@@ -630,7 +654,7 @@ body {
 
   ._button-1 {
     z-index: 3;
-    margin-left: 26.79375%;
+    margin-left: 14.89375%;
   }
 
   ._button-2 {
@@ -639,5 +663,545 @@ body {
 
   ._button-3 {
     z-index: 5;
+    margin-left: 5.1625%;
+  }
+}
+
+@media(max-width: 900px) {
+  ._button,
+  .element {
+    position: relative;
+  }
+
+  .text {
+    position: relative;
+  }
+
+  .wrapper {
+    position: relative;
+    margin-left: 15%;
+  }
+
+  .element-1 {
+    z-index: 0;
+  }
+
+  .element-2 {
+    z-index: 1;
+    margin-left: 42.90799%;
+  }
+
+  .text-1 {
+    z-index: 2;
+    margin-left: 19.61111%;
+  }
+
+  .text-2 {
+    z-index: 7;
+    margin-left: 15%;
+  }
+
+  .text-3 {
+    z-index: 9;
+    margin-top: 551px;
+    margin-left: 15%;
+  }
+
+  .text-4 {
+    z-index: 10;
+    margin-top: 24px;
+    margin-left: 15%;
+  }
+
+  .wrapper-1 {
+    z-index: 6;
+    margin-top: 20px;
+  }
+
+  .wrapper-2 {
+    z-index: 8;
+    margin-top: -709px;
+  }
+
+  .wrapper-3 {
+    clear: none;
+    z-index: 11;
+    margin-top: 88px;
+  }
+
+  ._button-1 {
+    z-index: 3;
+    margin-left: 14.89063%;
+  }
+
+  ._button-2 {
+    z-index: 4;
+  }
+
+  ._button-3 {
+    z-index: 5;
+    margin-left: 5.16146%;
+  }
+}
+
+@media(max-width: 800px) {
+  body {
+    font-size: 1.5em;
+  }
+
+  .element {
+    position: relative;
+  }
+
+  ._button,
+  .text {
+    position: relative;
+  }
+
+  .wrapper {
+    position: relative;
+  }
+
+  .element-1 {
+    z-index: 0;
+  }
+
+  .element-2 {
+    z-index: 1;
+    margin-top: -479px;
+    margin-left: 42.90625%;
+  }
+
+  .text-1 {
+    z-index: 2;
+    margin-left: 11.85938%;
+  }
+
+  .text-2 {
+    z-index: 7;
+  }
+
+  .text-3 {
+    z-index: 9;
+  }
+
+  .text-4 {
+    z-index: 10;
+  }
+
+  .wrapper-1 {
+    z-index: 6;
+  }
+
+  .wrapper-2 {
+    z-index: 8;
+  }
+
+  .wrapper-3 {
+    z-index: 11;
+  }
+
+  ._button-1 {
+    z-index: 3;
+  }
+
+  ._button-2 {
+    z-index: 4;
+  }
+
+  ._button-3 {
+    z-index: 5;
+    margin-left: 5.16016%;
+  }
+}
+
+@media(max-width: 700px) {
+  .element {
+    position: relative;
+  }
+
+  .text {
+    position: relative;
+  }
+
+  .wrapper {
+    position: relative;
+    margin-left: 6.57143%;
+  }
+
+  ._button {
+    position: relative;
+  }
+
+  .element-1 {
+    z-index: 0;
+  }
+
+  .element-2 {
+    z-index: 1;
+  }
+
+  .text-1 {
+    z-index: 2;
+  }
+
+  .text-2 {
+    z-index: 7;
+    margin-top: 12px;
+    margin-left: 6.5%;
+  }
+
+  .text-3 {
+    z-index: 9;
+    margin-left: 6.57143%;
+  }
+
+  .text-4 {
+    z-index: 10;
+    margin-top: 13px;
+    margin-left: 6.5%;
+  }
+
+  .wrapper-1 {
+    z-index: 6;
+    width: 87.1428571428%;
+    margin-top: 17px;
+  }
+
+  .wrapper-2 {
+    z-index: 8;
+    width: 87%;
+    margin-top: -743px;
+  }
+
+  .wrapper-3 {
+    z-index: 11;
+    width: 87.1428571428%;
+    margin-top: 49px;
+  }
+
+  ._button-1 {
+    z-index: 3;
+  }
+
+  ._button-2 {
+    z-index: 4;
+  }
+
+  ._button-3 {
+    z-index: 5;
+    margin-left: 5.15625%;
+  }
+}
+
+@media(max-width: 600px) {
+  body {
+    font-size: 1.5em;
+  }
+
+  ._button,
+  .element {
+    position: relative;
+  }
+
+  .text {
+    position: relative;
+  }
+
+  .wrapper {
+    position: relative;
+    margin-left: 6.56771%;
+  }
+
+  .element-1 {
+    z-index: 0;
+  }
+
+  .element-2 {
+    z-index: 1;
+  }
+
+  .text-1 {
+    z-index: 2;
+    width: 90%;
+    margin-top: -193px;
+    margin-left: 4.31771%;
+  }
+
+  .text-2 {
+    z-index: 7;
+  }
+
+  .text-3 {
+    z-index: 9;
+    margin-top: 524px;
+    margin-left: 6.5%;
+  }
+
+  .text-4 {
+    z-index: 10;
+  }
+
+  .wrapper-1 {
+    z-index: 6;
+  }
+
+  .wrapper-2 {
+    z-index: 8;
+  }
+
+  .wrapper-3 {
+    z-index: 11;
+  }
+
+  ._button-1 {
+    z-index: 3;
+  }
+
+  ._button-2 {
+    z-index: 4;
+  }
+
+  ._button-3 {
+    z-index: 5;
+  }
+}
+
+@media(max-width: 500px) {
+  .element {
+    position: relative;
+  }
+
+  .text {
+    position: relative;
+  }
+
+  .wrapper {
+    position: relative;
+    margin-left: 6.56563%;
+  }
+
+  ._button {
+    position: relative;
+    margin-top: 59px;
+  }
+
+  .element-1 {
+    z-index: 0;
+  }
+
+  .element-2 {
+    z-index: 1;
+  }
+
+  .text-1 {
+    z-index: 2;
+    margin-top: -250px;
+    margin-left: 4.31563%;
+  }
+
+  .text-2 {
+    z-index: 7;
+    width: 87.2%;
+    margin-left: 6.6%;
+  }
+
+  .text-3 {
+    z-index: 9;
+    width: 86.6%;
+    margin-left: 6.6%;
+  }
+
+  .text-4 {
+    z-index: 10;
+    width: 87.6%;
+    margin-left: 6.6%;
+  }
+
+  .wrapper-1 {
+    z-index: 6;
+  }
+
+  .wrapper-2 {
+    z-index: 8;
+  }
+
+  .wrapper-3 {
+    z-index: 11;
+  }
+
+  ._button-1 {
+    z-index: 3;
+  }
+
+  ._button-2 {
+    z-index: 4;
+  }
+
+  ._button-3 {
+    z-index: 5;
+    margin-left: 5.14688%;
+  }
+}
+
+@media(max-width: 400px) {
+  body {
+    font-size: 1.5em;
+  }
+
+  .element {
+    position: relative;
+  }
+
+  .text {
+    position: relative;
+  }
+
+  .wrapper {
+    position: relative;
+    margin-left: 6.5625%;
+  }
+
+  ._button {
+    position: relative;
+    width: 25%;
+  }
+
+  .element-1 {
+    z-index: 0;
+  }
+
+  .element-2 {
+    z-index: 1;
+  }
+
+  .text-1 {
+    z-index: 2;
+    margin-left: 4.3125%;
+  }
+
+  .text-2 {
+    z-index: 7;
+    margin-left: 6.59766%;
+  }
+
+  .text-3 {
+    z-index: 9;
+    margin-left: 6.59766%;
+  }
+
+  .text-4 {
+    z-index: 10;
+    margin-left: 6.59766%;
+  }
+
+  .wrapper-1 {
+    z-index: 6;
+  }
+
+  .wrapper-2 {
+    z-index: 8;
+  }
+
+  .wrapper-3 {
+    z-index: 11;
+  }
+
+  ._button-1 {
+    z-index: 3;
+    margin-left: 7.39063%;
+  }
+
+  ._button-2 {
+    z-index: 4;
+  }
+
+  ._button-3 {
+    z-index: 5;
+    margin-left: 5.14063%;
+  }
+}
+
+@media(max-width: 320px) {
+  body {
+    font-size: 1.25em;
+  }
+
+  .element {
+    position: relative;
+  }
+
+  .text {
+    position: relative;
+  }
+
+  .wrapper {
+    position: relative;
+  }
+
+  ._button {
+    position: relative;
+    font-size: 1.2em;
+  }
+
+  .element-1 {
+    z-index: 0;
+  }
+
+  .element-2 {
+    z-index: 1;
+    margin-left: 42.90039%;
+  }
+
+  .text-1 {
+    z-index: 2;
+    margin-top: -220px;
+    margin-left: 4.30176%;
+    font-size: 40px;
+  }
+
+  .text-2 {
+    z-index: 7;
+    margin-left: 6.59668%;
+    font-size: 20px;
+  }
+
+  .text-3 {
+    z-index: 9;
+    margin-left: 6.59668%;
+    font-size: 20px;
+  }
+
+  .text-4 {
+    z-index: 10;
+    margin-left: 6.59668%;
+    font-size: 20px;
+  }
+
+  .wrapper-1 {
+    z-index: 6;
+  }
+
+  .wrapper-2 {
+    z-index: 8;
+  }
+
+  .wrapper-3 {
+    z-index: 11;
+  }
+
+  ._button-1 {
+    z-index: 3;
+    margin-left: 7.3877%;
+  }
+
+  ._button-2 {
+    z-index: 4;
+    margin-left: 5.27344%;
+  }
+
+  ._button-3 {
+    z-index: 5;
+    margin-left: 5.13672%;
   }
 }

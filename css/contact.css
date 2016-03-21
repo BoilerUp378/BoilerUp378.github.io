@@ -203,16 +203,19 @@ body {
 
   ._button-1 {
     z-index: 3;
+    width: 12%;
     margin-left: 31.99449%;
   }
 
   ._button-2 {
     z-index: 4;
+    width: 12%;
     margin-left: 5.30331%;
   }
 
   ._button-3 {
     z-index: 5;
+    width: 12%;
     margin-left: 5.19853%;
   }
 
@@ -246,7 +249,6 @@ body {
     font-size: 3em;
   }
 
-  ._button,
   .element {
     position: relative;
   }
@@ -256,6 +258,10 @@ body {
     z-index: 2;
     width: 42%;
     margin-left: 32.31055%;
+  }
+
+  ._button {
+    position: relative;
   }
 
   .element-1 {
@@ -269,36 +275,45 @@ body {
 
   ._button-1 {
     z-index: 3;
+    width: 20%;
     margin-left: 31.99414%;
   }
 
   ._button-2 {
     z-index: 4;
+    width: 20%;
     margin-left: 5.30176%;
   }
 
   ._button-3 {
+    clear: both;
     z-index: 5;
+    width: 20%;
     margin-left: 5.1972699999%;
   }
 
   ._button-4 {
+    clear: none;
     z-index: 6;
-    margin-left: 28.1875%;
+    margin-top: 205px;
+    margin-left: 2.9892599999%;
   }
 
   ._button-5 {
     z-index: 7;
+    margin-top: 205px;
     margin-left: 2.08594%;
   }
 
   ._button-6 {
     z-index: 8;
+    margin-top: 205px;
     margin-left: 2.09766%;
   }
 
   ._button-7 {
     z-index: 9;
+    margin-top: 205px;
     margin-left: 2.09375%;
   }
 }
@@ -342,7 +357,7 @@ body {
 
   ._button-4 {
     z-index: 6;
-    margin-left: 26.25108%;
+    margin-left: 1.05388%;
   }
 
   ._button-5 {
@@ -392,39 +407,42 @@ body {
 
   ._button-1 {
     z-index: 3;
-    width: 12%;
     margin-left: 26.7963%;
   }
 
   ._button-2 {
     z-index: 4;
-    width: 12%;
     margin-left: 5.2824099999%;
   }
 
   ._button-3 {
+    clear: none;
     z-index: 5;
-    width: 12%;
     margin-left: 5.19329%;
   }
 
   ._button-4 {
+    clear: both;
     z-index: 6;
+    margin-top: 95px;
     margin-left: 24.76505%;
   }
 
   ._button-5 {
     z-index: 7;
+    margin-top: 95px;
     margin-left: 2.07176%;
   }
 
   ._button-6 {
     z-index: 8;
+    margin-top: 95px;
     margin-left: 2.09491%;
   }
 
   ._button-7 {
     z-index: 9;
+    margin-top: 95px;
     margin-left: 2.0856499999%;
   }
 }
@@ -438,6 +456,7 @@ body {
   .text {
     position: relative;
     z-index: 2;
+    width: 60%;
     margin-left: 24.77174%;
   }
 
@@ -499,7 +518,7 @@ body {
   .text {
     position: relative;
     z-index: 2;
-    width: 60%;
+    width: 75%;
     margin-left: 19.56875%;
   }
 
@@ -514,7 +533,7 @@ body {
 
   ._button-1 {
     z-index: 3;
-    margin-left: 26.79375%;
+    margin-left: 14.79375%;
   }
 
   ._button-2 {
@@ -544,5 +563,449 @@ body {
   ._button-7 {
     z-index: 9;
     margin-left: 2.0875%;
+  }
+}
+
+@media(max-width: 900px) {
+  ._button,
+  .element {
+    position: relative;
+  }
+
+  .text {
+    position: relative;
+    z-index: 2;
+    margin-left: 19.56771%;
+  }
+
+  .element-1 {
+    z-index: 0;
+  }
+
+  .element-2 {
+    z-index: 1;
+    margin-left: 42.75174%;
+  }
+
+  ._button-1 {
+    z-index: 3;
+    margin-left: 14.79167%;
+  }
+
+  ._button-2 {
+    z-index: 4;
+  }
+
+  ._button-3 {
+    z-index: 5;
+    margin-left: 5.18924%;
+  }
+
+  ._button-4 {
+    z-index: 6;
+    margin-left: 13.60417%;
+  }
+
+  ._button-5 {
+    z-index: 7;
+    margin-left: 2.05903%;
+  }
+
+  ._button-6 {
+    z-index: 8;
+    margin-left: 2.08681%;
+  }
+
+  ._button-7 {
+    z-index: 9;
+    margin-left: 2.0816%;
+  }
+}
+
+@media(max-width: 800px) {
+  body {
+    font-size: 3em;
+  }
+
+  .element {
+    position: relative;
+  }
+
+  .text {
+    position: relative;
+    z-index: 2;
+    margin-left: 11.81641%;
+  }
+
+  ._button {
+    position: relative;
+  }
+
+  .element-1 {
+    z-index: 0;
+  }
+
+  .element-2 {
+    z-index: 1;
+    margin-top: -480px;
+    margin-left: 42.75%;
+  }
+
+  ._button-1 {
+    z-index: 3;
+    margin-left: 14.79102%;
+  }
+
+  ._button-2 {
+    z-index: 4;
+  }
+
+  ._button-3 {
+    z-index: 5;
+    margin-left: 5.1875%;
+  }
+
+  ._button-4 {
+    z-index: 6;
+    margin-left: 9.47852%;
+  }
+
+  ._button-5 {
+    z-index: 7;
+    margin-left: 2.05469%;
+  }
+
+  ._button-6 {
+    z-index: 8;
+    margin-left: 2.08594%;
+  }
+
+  ._button-7 {
+    z-index: 9;
+    margin-left: 2.08008%;
+  }
+}
+
+@media(max-width: 700px) {
+  .element {
+    position: relative;
+  }
+
+  .text {
+    position: relative;
+    z-index: 2;
+    margin-left: 11.8125%;
+  }
+
+  ._button {
+    position: relative;
+  }
+
+  .element-1 {
+    z-index: 0;
+  }
+
+  .element-2 {
+    z-index: 1;
+  }
+
+  ._button-1 {
+    z-index: 3;
+    margin-left: 14.79018%;
+  }
+
+  ._button-2 {
+    z-index: 4;
+  }
+
+  ._button-3 {
+    z-index: 5;
+  }
+
+  ._button-4 {
+    z-index: 6;
+    margin-top: 65px;
+    margin-left: 27.60491%;
+  }
+
+  ._button-5 {
+    z-index: 7;
+    margin-top: 65px;
+    margin-left: 2.04688%;
+  }
+
+  ._button-6 {
+    clear: both;
+    z-index: 8;
+    margin-top: 22px;
+    margin-left: 27.60491%;
+  }
+
+  ._button-7 {
+    z-index: 9;
+    margin-top: 22px;
+    margin-left: 2.04688%;
+  }
+}
+
+@media(max-width: 600px) {
+  body {
+    font-size: 3em;
+  }
+
+  .element {
+    position: relative;
+  }
+
+  .text {
+    position: relative;
+    z-index: 2;
+    width: 90%;
+    margin-left: 4.31771%;
+  }
+
+  ._button {
+    position: relative;
+  }
+
+  .element-1 {
+    z-index: 0;
+  }
+
+  .element-2 {
+    z-index: 1;
+  }
+
+  ._button-1 {
+    z-index: 3;
+    margin-left: 14.78646%;
+  }
+
+  ._button-2 {
+    z-index: 4;
+  }
+
+  ._button-3 {
+    z-index: 5;
+  }
+
+  ._button-4 {
+    z-index: 6;
+    margin-left: 24.08073%;
+  }
+
+  ._button-5 {
+    z-index: 7;
+  }
+
+  ._button-6 {
+    z-index: 8;
+    margin-left: 24.08073%;
+  }
+
+  ._button-7 {
+    z-index: 9;
+  }
+}
+
+@media(max-width: 500px) {
+  .element {
+    position: relative;
+  }
+
+  .text {
+    position: relative;
+    z-index: 2;
+    margin-top: -250px;
+    margin-left: 4.31563%;
+  }
+
+  ._button {
+    position: relative;
+  }
+
+  .element-1 {
+    z-index: 0;
+  }
+
+  .element-2 {
+    z-index: 1;
+  }
+
+  ._button-1 {
+    z-index: 3;
+    margin-top: 61px;
+    margin-left: 14.78438%;
+  }
+
+  ._button-2 {
+    z-index: 4;
+    margin-top: 61px;
+  }
+
+  ._button-3 {
+    z-index: 5;
+    margin-top: 61px;
+  }
+
+  ._button-4 {
+    z-index: 6;
+    margin-left: 19.07813%;
+  }
+
+  ._button-5 {
+    z-index: 7;
+  }
+
+  ._button-6 {
+    z-index: 8;
+    margin-left: 19.07813%;
+  }
+
+  ._button-7 {
+    z-index: 9;
+  }
+}
+
+@media(max-width: 400px) {
+  body {
+    font-size: 3em;
+  }
+
+  .element {
+    position: relative;
+  }
+
+  .text {
+    position: relative;
+    z-index: 2;
+    margin-left: 4.3125%;
+  }
+
+  ._button {
+    position: relative;
+  }
+
+  .element-1 {
+    z-index: 0;
+  }
+
+  .element-2 {
+    z-index: 1;
+  }
+
+  ._button-1 {
+    z-index: 3;
+    width: 25%;
+    margin-left: 7.28125%;
+  }
+
+  ._button-2 {
+    z-index: 4;
+    width: 25%;
+  }
+
+  ._button-3 {
+    z-index: 5;
+    width: 25%;
+  }
+
+  ._button-4 {
+    z-index: 6;
+    width: 100px;
+    height: 100px;
+    margin-left: 24.07813%;
+  }
+
+  ._button-5 {
+    z-index: 7;
+    width: 100px;
+    height: 100px;
+  }
+
+  ._button-6 {
+    z-index: 8;
+    width: 100px;
+    height: 100px;
+    margin-left: 24.07813%;
+  }
+
+  ._button-7 {
+    z-index: 9;
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media(max-width: 320px) {
+  body {
+    font-size: 2.5em;
+  }
+
+  .element {
+    position: relative;
+  }
+
+  .text {
+    position: relative;
+    z-index: 2;
+    margin-top: -220px;
+    margin-left: 4.30176%;
+    font-size: 40px;
+  }
+
+  ._button {
+    position: relative;
+  }
+
+  .element-1 {
+    z-index: 0;
+  }
+
+  .element-2 {
+    z-index: 1;
+    margin-left: 42.74414%;
+  }
+
+  ._button-1 {
+    z-index: 3;
+    margin-left: 7.27051%;
+    font-size: 0.6em;
+  }
+
+  ._button-2 {
+    z-index: 4;
+    margin-left: 5.27344%;
+    font-size: 0.6em;
+  }
+
+  ._button-3 {
+    z-index: 5;
+    margin-left: 5.18555%;
+    font-size: 0.6em;
+  }
+
+  ._button-4 {
+    z-index: 6;
+    margin-left: 17.82715%;
+    font-size: 0.4em;
+  }
+
+  ._button-5 {
+    z-index: 7;
+    margin-left: 2.0459%;
+    font-size: 0.4em;
+  }
+
+  ._button-6 {
+    z-index: 8;
+    margin-left: 17.82715%;
+    font-size: 0.4em;
+  }
+
+  ._button-7 {
+    z-index: 9;
+    margin-left: 2.0459%;
+    font-size: 0.4em;
   }
 }
