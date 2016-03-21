@@ -65,6 +65,7 @@ body {
   height: 267px;
   margin: -517px 0 0 42.7596%;
   background-image: url('../images/Large%20Transparent%20A.png');
+  background-repeat: no-repeat;
   background-size: contain;
 }
 
@@ -164,7 +165,7 @@ body {
   z-index: 9;
   width: 150px;
   height: 150px;
-  margin: 95px 0 0 2.09635%;
+  margin: 95px 0 0 2.09473%;
   border-radius: 3px;
   background: url('../images/imgur%20button.png') rgba(98, 54, 54, 0);
   background-repeat: no-repeat;
@@ -175,7 +176,7 @@ body {
   color: rgb(0, 0, 0);
 }
 
-@media(max-width: 1200px) {
+@media(max-width: 1700px) {
   .element {
     position: relative;
   }
@@ -183,8 +184,7 @@ body {
   .text {
     position: relative;
     z-index: 2;
-    margin-top: -224px;
-    margin-left: 33.9987%;
+    margin-left: 33.99816%;
   }
 
   ._button {
@@ -197,22 +197,22 @@ body {
 
   .element-2 {
     z-index: 1;
-    margin-top: -500px;
-    margin-left: 42.91667%;
+    margin-left: 42.7591899999%;
   }
 
   ._button-1 {
     z-index: 3;
+    margin-left: 31.99449%;
   }
 
   ._button-2 {
     z-index: 4;
-    margin-left: 5.30339%;
+    margin-left: 5.30331%;
   }
 
   ._button-3 {
     z-index: 5;
-    margin-left: 5.19792%;
+    margin-left: 5.19853%;
   }
 
   ._button-3:hover {
@@ -221,20 +221,83 @@ body {
 
   ._button-4 {
     z-index: 6;
-    margin-left: 31.26042%;
+    margin-left: 29.25%;
   }
 
   ._button-5 {
     z-index: 7;
-    margin-left: 2.08854%;
+    margin-left: 2.08824%;
   }
 
   ._button-6 {
     z-index: 8;
-    margin-left: 2.09896%;
+    margin-left: 2.09835%;
   }
 
   ._button-7 {
     z-index: 9;
+    margin-left: 2.09467%;
+  }
+}
+
+@media(max-width: 1600px) {
+  body {
+    font-size: 3em;
+  }
+
+  ._button,
+  .element {
+    position: relative;
+  }
+
+  .text {
+    position: relative;
+    z-index: 2;
+    width: 33%;
+    margin-left: 33.37305%;
+  }
+
+  .element-1 {
+    z-index: 0;
+  }
+
+  .element-2 {
+    z-index: 1;
+    margin-left: 42.75879%;
+  }
+
+  ._button-1 {
+    z-index: 3;
+    margin-left: 31.99414%;
+  }
+
+  ._button-2 {
+    z-index: 4;
+    margin-left: 5.30176%;
+  }
+
+  ._button-3 {
+    z-index: 5;
+    margin-left: 5.1972699999%;
+  }
+
+  ._button-4 {
+    z-index: 6;
+    margin-left: 28.1875%;
+  }
+
+  ._button-5 {
+    z-index: 7;
+    margin-left: 2.08594%;
+  }
+
+  ._button-6 {
+    z-index: 8;
+    margin-left: 2.09766%;
+  }
+
+  ._button-7 {
+    z-index: 9;
+    margin-left: 2.09375%;
   }
 }

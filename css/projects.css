@@ -69,6 +69,7 @@ body {
   height: 267px;
   margin: -517px 0 0 42.7596%;
   background-image: url('../images/Large%20Transparent%20A.png');
+  background-repeat: no-repeat;
   background-size: contain;
 }
 
@@ -109,7 +110,7 @@ body {
   z-index: 10;
   width: 18.3333333333%;
   min-height: 617px;
-  margin: 67px 0 0 2.0821940104%;
+  margin: 67px 0 0 2.08171%;
   font-size: 1em;
   color: rgb(255, 255, 255);
 }
@@ -128,7 +129,7 @@ body {
 .wrapper-3 {
   clear: both;
   z-index: 11;
-  margin: 67px 0 0 25.5%;
+  margin: 67px 0 0 25.49805%;
 }
 
 ._button-1 {
@@ -159,7 +160,7 @@ body {
   box-shadow: 0 0 5px 3px rgba(255, 255, 255, 0.5) inset;
 }
 
-@media(max-width: 1200px) {
+@media(max-width: 1700px) {
   .element,
   .text {
     position: relative;
@@ -180,13 +181,13 @@ body {
   .element-2 {
     z-index: 1;
     margin-top: -500px;
-    margin-left: 42.91667%;
+    margin-left: 42.91636%;
   }
 
   .text-1 {
     z-index: 2;
     margin-top: -224px;
-    margin-left: 33.9987%;
+    margin-left: 33.99816%;
   }
 
   .text-2 {
@@ -196,21 +197,101 @@ body {
 
   .text-3 {
     z-index: 9;
-    margin-left: 25.4974%;
+    margin-left: 25.49449%;
   }
 
   .text-4 {
     z-index: 10;
+    margin-left: 2.07721%;
   }
 
   .wrapper-1 {
     z-index: 6;
-    margin-left: 25.4974%;
+    margin-left: 25.49449%;
   }
 
   .wrapper-2 {
     z-index: 8;
-    margin-left: 2.08464%;
+    margin-left: 2.08456%;
+  }
+
+  .wrapper-3 {
+    z-index: 11;
+    margin-left: 25.5%;
+  }
+
+  ._button-1 {
+    z-index: 3;
+    margin-left: 31.99449%;
+  }
+
+  ._button-2 {
+    z-index: 4;
+    margin-left: 5.30331%;
+  }
+
+  ._button-3 {
+    z-index: 5;
+    margin-left: 5.1921%;
+  }
+
+  ._button-3:hover {
+    box-shadow: 0 0 5px 3px rgba(255, 255, 255, 0.5) inset;
+  }
+}
+
+@media(max-width: 1600px) {
+  body {
+    font-size: 1.5em;
+  }
+
+  .text {
+    position: relative;
+  }
+
+  ._button,
+  .element,
+  .wrapper {
+    position: relative;
+  }
+
+  .element-1 {
+    z-index: 0;
+  }
+
+  .element-2 {
+    z-index: 1;
+    margin-left: 42.91602%;
+  }
+
+  .text-1 {
+    z-index: 2;
+    width: 33%;
+    margin-left: 33.37305%;
+  }
+
+  .text-2 {
+    z-index: 7;
+  }
+
+  .text-3 {
+    z-index: 9;
+    margin-left: 25.49414%;
+  }
+
+  .text-4 {
+    z-index: 10;
+    margin-left: 2.07715%;
+  }
+
+  .wrapper-1 {
+    z-index: 6;
+    margin-left: 25.49414%;
+  }
+
+  .wrapper-2 {
+    z-index: 8;
+    margin-left: 2.0830099999%;
   }
 
   .wrapper-3 {
@@ -219,19 +300,16 @@ body {
 
   ._button-1 {
     z-index: 3;
+    margin-left: 31.99414%;
   }
 
   ._button-2 {
     z-index: 4;
-    margin-left: 5.30339%;
+    margin-left: 5.30176%;
   }
 
   ._button-3 {
     z-index: 5;
-    margin-left: 5.19792%;
-  }
-
-  ._button-3:hover {
-    box-shadow: 0 0 5px 3px rgba(255, 255, 255, 0.5) inset;
+    margin-left: 5.19336%;
   }
 }
