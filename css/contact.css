@@ -119,7 +119,7 @@ body {
   z-index: 6;
   width: 150px;
   height: 150px;
-  margin: 95px 0 0 31.260579427%;
+  margin: 95px 0 0 31.26058%;
   border-radius: 3px;
   background: url('../images/outlook%20button.jpg') rgba(222, 222, 222, 0);
   background-repeat: no-repeat;
@@ -134,7 +134,7 @@ body {
   z-index: 7;
   width: 150px;
   height: 150px;
-  margin: 95px 0 0 2.0890299479%;
+  margin: 95px 0 0 2.08903%;
   border-radius: 3px;
   background: url('../images/Linked%20in.png') rgba(222, 222, 222, 0);
   background-repeat: no-repeat;
@@ -149,7 +149,7 @@ body {
   z-index: 8;
   width: 150px;
   height: 150px;
-  margin: 95px 0 0 2.099609375%;
+  margin: 95px 0 0 2.09961%;
   border-radius: 3px;
   background: url('../images/twitter%20button.png') rgba(222, 222, 222, 0);
   background-repeat: no-repeat;
@@ -164,7 +164,7 @@ body {
   z-index: 9;
   width: 150px;
   height: 150px;
-  margin: 95px 0 0 2.0963541666%;
+  margin: 95px 0 0 2.09635%;
   border-radius: 3px;
   background: url('../images/imgur%20button.png') rgba(98, 54, 54, 0);
   background-repeat: no-repeat;
@@ -221,14 +221,17 @@ body {
 
   ._button-4 {
     z-index: 6;
+    margin-left: 31.26042%;
   }
 
   ._button-5 {
     z-index: 7;
+    margin-left: 2.08854%;
   }
 
   ._button-6 {
     z-index: 8;
+    margin-left: 2.09896%;
   }
 
   ._button-7 {
